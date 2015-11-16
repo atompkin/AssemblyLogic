@@ -1,0 +1,16 @@
+push static 0
+push static 1
+add
+push static 2
+add
+neg
+push static 0
+push static 1
+add
+push static 2
+add
+neg
+add
+pop static 23
+label end
+goto end

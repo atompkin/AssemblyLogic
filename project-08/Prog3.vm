@@ -1,0 +1,16 @@
+push static 23
+push constant 0
+gt 
+if-goto jump
+push static 24
+push constant 2
+add
+pop static 24
+goto end
+label jump
+push static 24
+push constant 1
+add
+pop static 24
+label end
+goto end
